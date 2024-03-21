@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const mongodb = require('mongodb')
-const OTP = require('./models/otp');
-const User = require('./models/user')
-const Score = require('./models/score')
+const OTP = require('./otp');
+const User = require('./user')
+const Score = require('./score')
 const moment = require('moment');
 const router = express.Router();
 
